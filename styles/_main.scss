@@ -1,0 +1,31 @@
+@use 'fonts';
+@use 'colors';
+
+h1 {
+    color: colors.$blue-txt-color;
+    letter-spacing: -0.42px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.span__txt-blue {
+    color: colors.$blue-txt-color;
+}
+
+section {
+    margin-top: 96px;
+    border: solid 1px red;
+}
+
+@import 'grid';
+

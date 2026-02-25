@@ -1,0 +1,17 @@
+@use 'fonts';
+@use 'colors';
+
+@import 'header';
+@import 'footer';
+@import 'main';
+@import 'home';
+@import 'projects';
+@import 'contact';
+
+
+body {
+    font-family: fonts.$main-font;
+    max-width: 1360px;
+    width: 100%;
+    justify-self: center;
+}
