@@ -1,2 +1,17 @@
 @use 'fonts';
 @use 'colors';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 114px 0 47px 0;
+    border-top: solid 1px #D8D8D8;
+    margin-top: 60px;
+    &__navbar {
+        display: flex;
+    }
+    &__logo {
+        margin-left: 12px;
+    }
+}

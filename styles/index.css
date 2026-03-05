@@ -37,6 +37,127 @@ header {
   right: 19px;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 114px 0 47px 0;
+  border-top: solid 1px #D8D8D8;
+  margin-top: 60px;
+}
+.footer__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__logo {
+  margin-left: 12px;
+}
+
+.section__home-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.title__left {
+  max-width: 635px;
+  width: 100%;
+}
+.title__right {
+  color: #787878;
+  margin-right: 73px;
+  font-style: italic;
+}
+
+.section__home-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section__home-3-title {
+  max-width: 635px;
+  width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.section__home-3-list {
+  line-height: 30px;
+  color: #787878;
+}
+.section__home-3-list-left {
+  margin-left: 30px;
+}
+
+.award-container {
+  max-width: 625px;
+  width: 100%;
+}
+
+.award {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 625px;
+  width: 100%;
+}
+.award-txt {
+  color: #787878;
+  max-width: 190px;
+}
+.award-title {
+  color: #111111;
+  margin-bottom: 10px;
+}
+.award-2 {
+  padding-top: 80px;
+}
+
+.section__home-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: solid 1px #D8D8D8;
+  padding-top: 50px;
+}
+.section__home-4-2 {
+  margin-top: 32px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1110px;
+  width: 100%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
 h1 {
   color: #4A4FF2;
   letter-spacing: -0.42px;
@@ -1637,102 +1758,4 @@ section {
   -ms-grid-row: 27;
   -ms-grid-row-span: 6;
   grid-row: 27/33;
-}
-
-.section__home-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-}
-
-.title__left {
-  max-width: 635px;
-  width: 100%;
-}
-.title__right {
-  color: #787878;
-  margin-right: 73px;
-  font-style: italic;
-}
-
-.section__home-3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.section__home-3-title {
-  max-width: 635px;
-  width: 100%;
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 38px;
-}
-
-.section__home-3-list {
-  line-height: 30px;
-  color: #787878;
-}
-.section__home-3-list-left {
-  margin-left: 30px;
-}
-
-.award-container {
-  max-width: 625px;
-  width: 100%;
-}
-
-.award {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 625px;
-  width: 100%;
-}
-.award-txt {
-  color: #787878;
-  max-width: 190px;
-}
-.award-title {
-  color: #111111;
-  margin-bottom: 10px;
-}
-.award-2 {
-  padding-top: 80px;
-}
-
-.section__home-4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: solid 1px #D8D8D8;
-  padding-top: 50px;
-}
-.section__home-4-2 {
-  margin-top: 32px;
-}
-
-body {
-  font-family: "Mulish", sans-serif;
-  max-width: 1110px;
-  width: 100%;
-  -ms-grid-column-align: center;
-      justify-self: center;
 }
