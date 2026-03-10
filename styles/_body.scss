@@ -11,9 +11,11 @@
 body {
     font-family: fonts.$main-font;
     max-width: 1110px;
-    width: 100%;
+    width: 90%;
     justify-self: center;
 }
+
+
 
 h1 {
     color: colors.$blue-txt-color;
@@ -26,7 +28,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 40px;
-    line-height: 60px;
+    line-height: 55px;
 }
 
 h3 {
