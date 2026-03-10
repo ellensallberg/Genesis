@@ -1,2 +1,54 @@
 @use 'fonts';
 @use 'colors';
+
+.projects__section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+
+    &-left {
+        max-width: 635px;
+        width: 100%;
+        &-title {
+            max-width: 475px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    &-right {
+        max-width: 335px;
+        width: 100%;
+    }
+}
+
+.list-item {
+    padding: 18px 0 18px 0;
+    border-bottom: solid 1px #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    &-right {
+        font-weight: bold;
+    }
+}
+
+.projects__section-2 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.projects__section-3 {
+    margin-top: 45px;
+}
+
+.projects__section-4 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto;
+    &-image {
+        width: 100%;
+        height: 100%;
+
+    }
+}
